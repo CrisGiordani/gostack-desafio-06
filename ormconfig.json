@@ -1,10 +1,10 @@
 {
-  "type": "mysql",
-  "host": "31.170.163.51",
-  "port": 3306,
-  "username": "cubycomb_gostack",
-  "password": "M9s^)ggg;CGv",
-  "database": "cubycomb_gostack_desafio06",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker",
+  "database": "desafios",
 
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
